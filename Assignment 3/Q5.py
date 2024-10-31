@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from scipy.optimize import fsolve
 
 # Define Constants
-h = 6.626*10**(-34)
+h = 6.626*10**(-34) 
 me = 9.109*10**(-31)
 meStar = 0.067*me
 Dy = 2 *10**(-6)
@@ -32,7 +32,6 @@ print(f"Nz Term = {nzTerm(1)}")
 print(f"N Term % = {nTerm(1)/MinEnergy*100}")
 print(f"Ny Term % = {nyTerm(1)/MinEnergy*100}")
 print(f"Nz Term % = {nzTerm(1)/MinEnergy*100}")
-
 
 delta = (h**2)/(8*meStar*Dy**2)
 
